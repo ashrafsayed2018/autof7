@@ -64,7 +64,7 @@ body{
 	font-family:'Playfair Display', serif;
 }
 section{
-	background:#000;
+	background:#f6b929;
 }
 .parallax{
 	background-color:transparent !important;
@@ -222,7 +222,7 @@ a.btn-custom{
 	Navbar
 ========================================================*/
 .navbar{
-	background:black;
+	background:#f6b929;;
 	padding:30px 0;
 	-webkit-transition:all .3s ease;
 	-moz-transition:all .3s ease;
@@ -241,17 +241,16 @@ a.btn-custom{
 	text-decoration:none;
 	background:none !important;
 	text-transform:uppercase;
-	letter-spacing:2px;
 	font-size:12px;
-	color:#FFF;
-	color:rgba(255,255,255,.6);
+	color:#000;
+	font-weight: bold;
 	-webkit-transition:all .3s ease;
 	-moz-transition:all .3s ease;
 	transition:all .3s ease;
 }
 .navbar-nav > li.active > a,
 .navbar-nav > li > a:hover{
-	color:#fff;
+	color:#000;
 }
 .navbar-toggle{
 	margin-top:5.5px;
@@ -269,8 +268,8 @@ a.btn-custom{
 
 }
 body.scrolled .navbar{
-	background:#000;
-	background:rgba(0,0,0,.9);
+	/* background:#f6b929;
+	background:rgba(0,0,0,.9); */
 	padding:10px 0;
 	opacity: 1.0;
 }
@@ -284,7 +283,7 @@ body.scrolled .navbar-brand > .logo-light{
 	display:none;
 }
 body.scrolled .navbar-nav > li > a{
-	color:#FFF;
+	color:#000;
 	color:rgba(255,255,255,.9);
 }
 
@@ -723,27 +722,32 @@ body.loaded #preloader{
 }
 .icon-feature{
 	position:relative;
-	margin-bottom:80px;
+	margin-bottom:40px;
 	color: #ffffff;
+	overflow: hidden;
+	height: 90px;
 
 }
 .icon-feature > .icon{
-	position:absolute;
-	top:0;
-	left:0;
 	font-size:48px;
 	color:#FFF;
 	z-index:5;
 	right:80%;
+	float: right;
 }
 .icon-feature > .content{
-	margin-left:80px;
+	width: 75%;
+	height: 103px;
+    position: absolute;
+	top: 0;
+	text-align:right
 }
 .icon-feature > .content > h4{
 	font-size:18px;
 	margin-bottom:10px;
 	text-transform:uppercase;
-	letter-spacing:2px;
+	letter-spacing:0px;
+	color:#000
 }
 .icon-feature > .content > p{
 	margin:0;
@@ -998,7 +1002,7 @@ body.loaded #preloader{
 
 body {
 
-	background-color: #000;
+	background:#f6b929;
 
 }
 .download-app > h2{
@@ -1144,7 +1148,7 @@ textarea.form-control{
 ========================================================*/
 footer{
 	padding:20px 0;
-	background:#202020;
+
 	overflow:hidden;
 }
 footer p{
@@ -1271,7 +1275,7 @@ footer p{
 		padding-top:100px;
 	}
 	.navbar{
-		background:#000;
+		background:#72713b;
 
 		padding:10px 0;
 	}

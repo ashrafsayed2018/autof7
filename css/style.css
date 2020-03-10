@@ -1309,7 +1309,7 @@ footer p{
 	}
 
 }
-img {
-	filter: sepia(100%);   
-	-webkit-filter: sepia(100%); 
+.icon img,.col-feature img {
+	filter: invert(50%); 
+	-webkit-filter: invert(50%);
 }

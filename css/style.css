@@ -353,8 +353,8 @@ body.loaded #preloader{
 	z-index:2;
 }
 .intro-text{
-	padding-top:120px;
-	padding-bottom:105px;
+	padding-top: 250px;
+	/* padding-bottom:105px; */
 }
 .intro-text > h1{
 	font-weight:320;
@@ -1310,6 +1310,7 @@ footer p{
 
 }
 .icon img,.col-feature img {
-	filter: invert(50%); 
-	-webkit-filter: invert(50%);
+	filter: invert(53%); 
+	-webkit-filter: invert(53%);
+
 }
